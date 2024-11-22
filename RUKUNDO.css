@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(to right, aquamarine,bisque);
+}
+#username {
+    border-radius: 5pt;
+    border-color: aquamarine;
+}
+#email {
+    border-radius: 5pt;
+    border-color: aquamarine;
+}
+#phone {
+    border-radius: 5pt;
+    border-color: aquamarine;
+}
+#password {
+    border-radius: 5pt;
+    border-color: aquamarine;
+}
+#age {
+    border-radius: 5pt;
+    border-color:aquamarine
+}
+#register {
+    border-radius: 5pt;
+    border-color:aquamarine
+}
+#message {
+    border-radius: 5pt;
+    border-color:aquamarine;
+}
+#reset {
+    border-radius: 5pt;
+    border-color:aquamarine;
+}
+#weekofregistration {
+    border-radius: 5pt;
+    border-color:aquamarine;
+}
+#timeofregistration {
+    border-radius: 5pt;
+    border-color: aquamarine;
+}

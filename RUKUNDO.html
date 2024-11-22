@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="RUKUNDO.css">
+</head>
+<body>
+   <h2>User Registration Form</h2>
+   <form action="RUKUNDO.php" method="POST">
+    <fieldset>
+        <legend>Personalia:</legend>
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor"><br><br>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <br><br>
+
+    <label for="dateofbirth">Date of Birth(DoB):</label>
+    <input type="date" id="dateofbirth" name="dateofbirth" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <label for="phone">Phone(format:1234567890):</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{2}[0-9]{5}" required>
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" minlength="8" required>
+    <br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="12" max="100" required>
+    <br><br>
+    
+    <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="prefer not to say" name="gender" value="prefer not to say">
+        <label for="prefer not to say">Prefer not to say</label><br><br>
+
+        <label for="interests">Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br><br>
+        </fieldset>
+        <br>
+
+        <label for="description">Describe the level at which you want your experience here to be:</label>
+        <input type="range" id="description" name="description" min="0" max="100"><br><br>
+
+        <label for="timeofregistration">Select a time for your registration:</label>
+        <input type="time" id="timeofregistration" name="timeofregistration">
+        <br><br>
+        
+        <label for="weekofregistration">Select a week for your registration:</label>
+        <input type="week" id="weekofregistration" name="weekofregistration"><br><br>
+
+
+       <input type="checkbox" id="terms" name="terms" required>
+       <label for="terms">I agree to the terms and conditions.</label>
+       <br><br>
+
+        <label for="message">Leave a message for the admin:</label>
+        <textarea name="message" id="message" style="width: 700px;"></textarea><br>
+
+        <input type="submit" id="register" value="Register">
+        <input type="reset" id="reset" value="Reset">
+
+   </form> 
+</body>
+</html>
